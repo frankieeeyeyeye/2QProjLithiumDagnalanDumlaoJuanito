@@ -16,6 +16,7 @@ header {
 h1 {
     color: #403321;
     font-size: 2em;
+    text-align: center;
 }
 
 nav {
@@ -53,7 +54,7 @@ article {
 
 article img {
     width: 100%;
-    height: 90%;
+    height: 75%;
     display: block;
 }
 
