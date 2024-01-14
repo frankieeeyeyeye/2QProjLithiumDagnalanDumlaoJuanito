@@ -35,8 +35,28 @@ a:hover {
     color: #EDD49B;
 }
 
-#news {
-    padding-top: 50px;
-    padding-left: 80px;
+p {
+    text-align: justify;
+    font-family: 'Times New Roman';
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: #54442D;
 }
 
+.second-part, .third-part, .fourth-part {
+    float: left;
+}
+
+.first-part {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+}
+
+.first-part img {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 25px;
+}
