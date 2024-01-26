@@ -20,7 +20,8 @@ footer {
     color: whitesmoke;
     text-align: center;
     font-family: Courier;
-    padding: 34px;
+    padding-top: 20px;
+    padding-bottom: 34px;
 }
 
 h2 {
@@ -28,21 +29,19 @@ h2 {
 }
 
 nav {
-    float: right;
-    width: 20%;
     background-color:  #54442C;
-    height: 100vh;
+    text-align: center;
 }
 
 nav a {
     font-family: Courier;
-    display: block;
-    padding: 42px;
+    display: inline-block;
+    padding: 15px 90px 15px 90px;
     text-decoration: none;
     color: white;
     text-align: center;
-    border-bottom: 1px solid whitesmoke;
-    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
 }
 
 a:hover {
@@ -50,7 +49,7 @@ a:hover {
 }
 
 article {
-    padding: 1em;
+    padding: 5px;
     text-decoration: none;
     color: #403321;
 }
@@ -82,6 +81,7 @@ aside {
 }
 
 .instagram {
+    padding-left: 5px;
     background: url(../images/icons.png) no-repeat -70px -116px;
 	width: 53px;
 	height: 53px;

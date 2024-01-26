@@ -16,21 +16,19 @@ header {
 }
 
 nav {
-    float: left;
-    width: 20%;
     background-color:  #54442C;
-    height: 100vh;
+    text-align: center;
 }
 
 nav a {
     font-family: Courier;
-    display: block;
-    padding: 42px;
+    display: inline-block;
+    padding: 15px 90px 15px 90px;
     text-decoration: none;
     color: white;
     text-align: center;
-    border-bottom: 1px solid whitesmoke;
-    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
 }
 
 a:hover {
@@ -39,7 +37,7 @@ a:hover {
 
 p {
     text-align: justify;
-    width: 700px;
+    width: 850px;
     font-family: 'Times New Roman';
     padding-top: 25px;
     padding-bottom: 20px;
@@ -65,6 +63,7 @@ p {
 }
 
 .second-part img {
+    text-align: center;
     display: block;
     margin: 10px auto;
     padding: 25px;
